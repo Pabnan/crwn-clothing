@@ -28,16 +28,18 @@ class App extends React.Component {
           });
         });
       }
-
+     
       setCurrentUser(userAuth);
+
     });
   }
-
+ 
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
 
   render() {
+   
     return (
       <div>
         <Header />
@@ -57,6 +59,7 @@ const mapStateToProps = ({ user }) => ({
 
 const mapDispatchToProps = dispatch => ({
   setCurrentUser: user => dispatch(setCurrentUser(user))
+  
 });
 
 export default connect(
