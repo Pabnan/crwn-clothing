@@ -4,7 +4,8 @@ import 'firebase/auth';
 
 const config = {
     apiKey: "AIzaSyBaH7VmTzRmWHYkAdH00RSiL3W1GI7ChHE",
-    authDomain: "crwn-db-b737b.firebaseapp.com",
+    //authDomain: "crwn-db-b737b.firebaseapp.com",
+    authDomain: "crwn-clothing-sample.herokuapp.com",
     databaseURL: "https://crwn-db-b737b.firebaseio.com",
     projectId: "crwn-db-b737b",
     storageBucket: "crwn-db-b737b.appspot.com",
